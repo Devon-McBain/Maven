@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="15.331" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Application login" name="Home page default login" time="15.006">
+<system-out><![CDATA[
+Given User is on landing page...............................................passed
+When User login into application with username and password.................passed
+Then Homepage is populated..................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
