@@ -2,7 +2,11 @@
 
 # Testing Approach for Orange HRM Open Source Frontend Website
 
-This document outlines the approach to testing the Orange HRM open-source frontend website. It includes all necessary steps in the software testing lifecycle.
+This document outlines the approach to testing the Orange HRM open-source frontend website. 
+
+https://opensource-demo.orangehrmlive.com/
+
+It includes all necessary steps in the software testing lifecycle.
 
 ## Software Testing Lifecycle Steps:
 
