@@ -44,7 +44,7 @@ It includes all necessary steps in the software testing lifecycle.
    - Gather feedback from testing activities to improve future test planning and execution.
    - Update test cases and test plans based on lessons learned and changes in requirements.
    
-## Testing the Orange HRM Open Source Frontend Website:
+## Testing the Orange HRM Open Source Frontend Website: Generic types of testing that may apply to the Application Under Test (AUT).
 
 1. **Functional Testing:**
    - Validate all functionalities such as user authentication, employee management, leave management, etc.
