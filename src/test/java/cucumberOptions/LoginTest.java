@@ -1,3 +1,12 @@
+/*
+    Testing Orange HRM Open Source Frontend
+    File Name: LoginTest.java
+    Author: Devon McBain-Charles
+    Description: BDD Framework using Cucumber/Junit test runner.
+    This allows feature files to be executed using the stepDefinition package as
+    the glue
+*/
+
 package cucumberOptions;
 
 import io.cucumber.junit.Cucumber;

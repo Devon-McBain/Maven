@@ -1,3 +1,11 @@
+# Testing Orange HRM Open Source Frontend
+# File Name: LoginTest.java
+# Author: Devon McBain-Charles
+# Description: BDD Framework using Cucumber/Gherkin keyword syntax to define requirements.
+# This allows requirements to be captured in the form of a feature file.
+# The common syntax => Feature, Scenario, Given, When, Then.
+
+
 Feature:  Application login
 
   @EasyLogin
