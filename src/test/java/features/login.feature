@@ -1,4 +1,4 @@
-# Testing Orange HRM Open Source Frontend
+# Testing Orange HRM Open Source Frontend user interface
 # File Name: LoginTest.java
 # Author: Devon McBain-Charles
 # Description: BDD Framework using Cucumber/Gherkin keyword syntax to define requirements.

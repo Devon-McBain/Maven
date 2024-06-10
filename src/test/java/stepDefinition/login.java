@@ -1,8 +1,9 @@
 /*
-    Testing Orange HRM Open Source Frontend
+    Testing Orange HRM Open Source Frontend user interface
     File Name: login.java
     Author: Devon McBain-Charles
-    Description: BDD Framework - Process of logging in using the Step definitions.
+    Description: BDD Framework - Process of logging into the application via the website
+     using the Step definitions login file.
 
 */
 
@@ -22,8 +23,8 @@ public class login {
     WebDriver driver;
 
     //Constructor of the class login - initialise this driver
-    public login(commonSteps commonSteps){
-        driver = commonSteps.getDriver();
+    public login(commonSteps getNewDriver){
+        driver = getNewDriver.getDriver();
     }
 
     @Given("User is on landing page")

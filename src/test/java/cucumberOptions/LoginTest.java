@@ -1,5 +1,5 @@
 /*
-    Testing Orange HRM Open Source Frontend
+    Testing Orange HRM Open Source Frontend user interface
     File Name: LoginTest.java
     Author: Devon McBain-Charles
     Description: BDD Framework using Cucumber/Junit test runner.
@@ -19,7 +19,7 @@ import org.junit.runner.RunWith;
         glue = {"stepDefinition"}, // specify where the steps definition files are kept
         plugin = {"pretty", "html:src/test/java/reports/HTMLReports/Report1.html",
                 "json:src/test/java/reports/JSONReports/Report2.json",
-                "junit:src/test/java/reports/JUnitReports/Reports3.xml"}, // specify what kind of report we want to generate
+                "junit:src/test/java/reports/JUnitReports/Reports3.xml"}, // specify what kind of report to generate
         dryRun = false
         //strict = false,
         //monochrome = false

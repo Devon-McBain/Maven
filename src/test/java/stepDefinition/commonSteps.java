@@ -1,5 +1,5 @@
 /*
-    Testing Orange HRM Open Source Frontend
+    Testing Orange HRM Open Source Frontend user interface
     File Name: commonSteps.java
     Author: Devon McBain-Charles
     Description: BDD Framework - Hooks for Before(setup), After(teardown) and
