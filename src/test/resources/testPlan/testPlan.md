@@ -1,6 +1,6 @@
 # Test Plan
 - Testing Orange HRM Open Source Frontend user interface
-- File Name: testPlan.txt
+- File Name: testPlan.md
 - Version: 1
 - Environment: QA
 - Date: 2024/06/07
