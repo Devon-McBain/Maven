@@ -10,21 +10,20 @@
 - Description: Functional tests for the login page
 
 ## Scenarios 
-* 1  =  Correct input
-* 0  =  Incorrect Input
-* -1 =  Blank Input.
-
+- 1  =  Correct input
+- 0  =  Incorrect Input
+- -1 =  Blank Input.
  
-    Test    |    Username   | Password  | Expected Output
-      1     |        1      |     1     | Login successful - Login successful
-      2     |        1      |     0     | Error Message Invalid credentials
-      3     |        1      |    -1     | Error Password "Required"
-      4     |        0      |     1     | Error Message Invalid credentials
-      5     |        0      |     0     | Error Message Invalid credentials
-      6     |        0      |    -1     | Error Password "Required"
-      7     |       -1      |     1     | Error Username "Required"
-      8     |       -1      |     0     | Error Username "Required"
-      9     |       -1      |    -1     | Error Username and Password "Required"
+          Test   |    Username   | Password  | Expected Output
+           1     |        1      |     1     | Login successful - Login successful
+           2     |        1      |     0     | Error Message Invalid credentials
+           3     |        1      |    -1     | Error Password "Required"
+           4     |        0      |     1     | Error Message Invalid credentials
+           5     |        0      |     0     | Error Message Invalid credentials
+           6     |        0      |    -1     | Error Password "Required"
+           7     |       -1      |     1     | Error Username "Required"
+           8     |       -1      |     0     | Error Username "Required"
+           9     |       -1      |    -1     | Error Username and Password "Required"
 
 ## Test cases:
 - Detailed test cases for each UI feature/module
