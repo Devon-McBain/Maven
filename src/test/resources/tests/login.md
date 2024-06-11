@@ -46,7 +46,7 @@
 2. **Test2 - Error Message Invalid credentials**
    - Scenario: A user logs into the orangeHRM portal
    - Given The user accesses the portal using the url
-   - When The incorrect Username and Password details are captured
+   - When The incorrect Password details are captured
    - Then The user selects the login button
    - And ERROR! The Error Message Invalid credentials is displayed
    - And The user closes the webpage

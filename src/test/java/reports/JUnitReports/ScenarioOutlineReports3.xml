@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="141.734" tests="9" skipped="0" failures="0" errors="0">
+<testcase classname="Application login" name="Login tests - Example #1.1" time="15.5">
+<system-out><![CDATA[
+Given Access the portal to achieve 'Test 1 - A Successful login' using the 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'.passed
+When The 'Admin' and 'admin123' are captured................................passed
+Then Select the login button................................................passed
+And Verify credentials 'Admin' and 'admin123'...............................passed
+And Display the homepage....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Application login" name="Login tests - Example #1.2" time="15.948">
+<system-out><![CDATA[
+Given Access the portal to achieve 'Test 2 - Error Message Invalid credentials' using the 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'.passed
+When The 'Admin' and '1234' are captured....................................passed
+Then Select the login button................................................passed
+And Verify credentials 'Admin' and '1234'...................................passed
+And Display the homepage....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Application login" name="Login tests - Example #1.3" time="13.323">
+<system-out><![CDATA[
+Given Access the portal to achieve 'Test 3 - Error Password "Required"' using the 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'.passed
+When The 'Admin' and '' are captured........................................passed
+Then Select the login button................................................passed
+And Verify credentials 'Admin' and ''.......................................passed
+And Display the homepage....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Application login" name="Login tests - Example #1.4" time="17.193">
+<system-out><![CDATA[
+Given Access the portal to achieve 'Test 4 - Error Message Invalid credentials' using the 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'.passed
+When The 'NotAdmin' and 'admin123' are captured.............................passed
+Then Select the login button................................................passed
+And Verify credentials 'NotAdmin' and 'admin123'............................passed
+And Display the homepage....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Application login" name="Login tests - Example #1.5" time="18.395">
+<system-out><![CDATA[
+Given Access the portal to achieve 'Test 5 - Error Message Invalid credentials' using the 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'.passed
+When The 'NotAdmin' and '1234' are captured.................................passed
+Then Select the login button................................................passed
+And Verify credentials 'NotAdmin' and '1234'................................passed
+And Display the homepage....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Application login" name="Login tests - Example #1.6" time="16.33">
+<system-out><![CDATA[
+Given Access the portal to achieve 'Test 6 - Error Password "Required"' using the 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'.passed
+When The 'NotAdmin' and '' are captured.....................................passed
+Then Select the login button................................................passed
+And Verify credentials 'NotAdmin' and ''....................................passed
+And Display the homepage....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Application login" name="Login tests - Example #1.7" time="14.36">
+<system-out><![CDATA[
+Given Access the portal to achieve 'Test 7 - Error Username "Required"' using the 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'.passed
+When The '' and 'admin123' are captured.....................................passed
+Then Select the login button................................................passed
+And Verify credentials '' and 'admin123'....................................passed
+And Display the homepage....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Application login" name="Login tests - Example #1.8" time="16.398">
+<system-out><![CDATA[
+Given Access the portal to achieve 'Test 8 - Error Username "Required"' using the 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'.passed
+When The '' and '1234' are captured.........................................passed
+Then Select the login button................................................passed
+And Verify credentials '' and '1234'........................................passed
+And Display the homepage....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Application login" name="Login tests - Example #1.9" time="13.763">
+<system-out><![CDATA[
+Given Access the portal to achieve 'Test 9 - Error Username and Password "Required"' using the 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'.passed
+When The '' and '' are captured.............................................passed
+Then Select the login button................................................passed
+And Verify credentials '' and ''............................................passed
+And Display the homepage....................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
