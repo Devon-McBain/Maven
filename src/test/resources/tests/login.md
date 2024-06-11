@@ -12,9 +12,9 @@
 ## Scenarios 
 * 1  =  Correct input
 * 0  =  Incorrect Input
-* -1 =  Blank Input
+* -1 =  Blank Input.
 
-
+ 
     Test    |    Username   | Password  | Expected Output
       1     |        1      |     1     | Login successful - Login successful
       2     |        1      |     0     | Error Message Invalid credentials
