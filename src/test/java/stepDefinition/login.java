@@ -3,7 +3,7 @@
     File Name: login.java
     Author: Devon McBain-Charles
     Description: BDD Framework - Process of logging into the application via the website
-     using the Step definitions login file.
+     using the Step definition login file.
 
 */
 

@@ -31,6 +31,8 @@ It includes all necessary steps in the software testing lifecycle.
    - Execute test cases according to the test plan.
    - Report defects using a defect tracking tool, providing detailed information and steps to reproduce.
    - Perform regression testing after fixing defects or implementing new features.
+   - The project will leverage data-driven testing techniques to enhance test coverage and efficiency.
+   - This approach allows for scalability.
    
 6. **Defect Tracking and Management:**
    - Track defects throughout their lifecycle from discovery to resolution.
@@ -38,6 +40,8 @@ It includes all necessary steps in the software testing lifecycle.
    
 7. **Test Reporting:**
    - Generate test reports summarizing test execution results, defect metrics, and test coverage.
+   - The Cucumber BDD framework will be employed for organizing, executing, and managing the tests.
+   - Additionally, the Cucumber BDD framework will generate an HTML, JSON or XML reports summarizing the test results, making it easy to analyze and share the test outcomes.
    - Share reports with stakeholders to provide insights into the quality of the Orange HRM frontend website.
    
 8. **Continuous Improvement:**
@@ -46,13 +50,17 @@ It includes all necessary steps in the software testing lifecycle.
    
 ## Testing the Orange HRM Open Source Frontend Website: 
 ## Generic types of testing that may apply to the Application Under Test (AUT).
-### Effort will be placed on Functional Testing
+### Effort will be placed on Functional Testing through automation
 
 1. **Functional Testing:**
    - Validate all functionalities such as user authentication, employee management, leave management, etc.
    - Verify that the website behaves as expected under different user roles and permissions.
-   
-2. **Compatibility Testing:**
+
+2. **Test Automation**
+   - The Selenium framework will be utilized for automating web browsers and interacting with the OrangeHRM Demo 
+   platform. It provides a powerful set of tools for simulating user actions, validating web elements, and performing assertions.
+
+3. **Compatibility Testing:**
    - Test the website on different browsers (Chrome, Firefox, Safari, Edge) and versions to ensure cross-browser compatibility.
    - Validate responsiveness across various devices (desktops, laptops, tablets, smartphones) and screen resolutions.
    
