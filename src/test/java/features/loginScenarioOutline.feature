@@ -8,7 +8,7 @@
 
 Feature: Application login
 
-  @LoginTests
+  @TC_LOGINTESTS
   Scenario Outline: Login tests
     Given Access the portal to achieve '<Test>' using the '<URL>'
     When The '<Username>' and '<Password>' are captured

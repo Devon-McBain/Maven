@@ -8,13 +8,13 @@
 
 Feature:  Application login
 
-  @EasyLogin
+  @TC_LOGIN_001 @SmokeTest
   Scenario: Home page default login
     Given User is on landing page
     When User login into application with username and password
     Then The homepage is displayed
 
-    @LongerLogin
+  @TC_LOGIN_002
   Scenario: A user logs into the orangeHRM portal
     Given The user accesses the portal using the url
     When The Username and Password are captured

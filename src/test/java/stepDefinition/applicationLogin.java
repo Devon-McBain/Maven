@@ -76,7 +76,7 @@ public class applicationLogin {
             if(nameRequired.equals("Required") && passRequired.equals("Required")) {
                 System.out.println("Username: " + nameRequired);
                 System.out.println("Password: " + passRequired);
-                //System.out.println(test + " " + "PASSED");
+
             }
             else {
                 fail("The username error message and password error message are not displayed");
@@ -87,7 +87,7 @@ public class applicationLogin {
             String nameRequired = usernameRequired.getText();
             if(nameRequired.equals("Required")) {
                 System.out.println("Username: " + nameRequired);
-                //System.out.println(test + " " + "PASSED");
+
             }
             else {
                 fail("The username error message is not displayed");
@@ -98,7 +98,7 @@ public class applicationLogin {
             String passRequired = passwordRequired.getText();
             if(passRequired.equals("Required")) {
                 System.out.println("Password: " + passRequired);
-                //System.out.println(test + " " + "PASSED");
+
             }
             else {
                     fail("The password error message is not displayed");
@@ -109,7 +109,7 @@ public class applicationLogin {
             String invalidCred = invalid.getText();
             if(invalidCred.equals("Invalid credentials")){
                 System.out.println(invalidCred);
-                //System.out.println(test + " " + "PASSED");
+
             }else {
                 fail("An unexpected error message is returned");
             }

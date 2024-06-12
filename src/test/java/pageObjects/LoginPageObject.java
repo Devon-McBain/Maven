@@ -16,6 +16,12 @@ public class LoginPageObject {
     @FindBy(css = "button.oxd-button.oxd-button--medium.oxd-button--main.orangehrm-login-button")
     public WebElement buttonLogin;
 
+    @FindBy(css = "div[class='oxd-alert-content oxd-alert-content--error']")
+    public WebElement InvalidCredentials;
+
+    @FindBy(css = "p[class$='orangehrm-login-forgot-header']")
+    public WebElement ForgotYourPassword;
+    
     public LoginPageObject(WebDriver driver) {
         PageFactory.initElements(driver, this);
     }
