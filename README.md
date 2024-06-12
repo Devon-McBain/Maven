@@ -6,6 +6,13 @@ This document outlines the approach to testing the Orange HRM open-source fronte
 
 https://opensource-demo.orangehrmlive.com/
 
+
+      features: Test suit in gherkin language. Each feature consists of test cases.
+      stepDefintion: Step Definition in cucumber, ie. Given When And Then
+      cucumberOptions: TestRunner, run features file, glue between your feature and cucumbersteps
+      reports: The Cucumber BDD framework will generate an HTML, JSON and/or XML report
+
+
 It includes all necessary steps in the software testing lifecycle.
 
 ## Software Testing Lifecycle Steps:
@@ -41,8 +48,8 @@ It includes all necessary steps in the software testing lifecycle.
 7. **Test Reporting:**
    - Generate test reports summarizing test execution results, defect metrics, and test coverage.
    - The Cucumber BDD framework will be employed for organizing, executing, and managing the tests.
-   - Additionally, the Cucumber BDD framework will generate an HTML, JSON or XML reports summarizing the test results, making it easy to analyze and share the test outcomes.
-   - Share reports with stakeholders to provide insights into the quality of the Orange HRM frontend website.
+   - Additionally, the Cucumber BDD framework will generate an HTML, JSON and/or XML report summarizing the test results, making it easy to analyze and share the test outcomes.
+   - Share reports with stakeholders, in the necessary format, to provide insights into the quality of the Orange HRM frontend website.
    
 8. **Continuous Improvement:**
    - Gather feedback from testing activities to improve future test planning and execution.
