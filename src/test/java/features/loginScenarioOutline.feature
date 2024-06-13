@@ -6,6 +6,7 @@
 # The common syntax => Feature, Scenario, Given, When, Then.
 # Scenario Outline used in data driven testing, allowing for multiple executions of the script.
 
+@Regression
 Feature: Application login
 
   @TC_LOGINTESTS

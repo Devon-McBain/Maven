@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="17.722" tests="1" skipped="0" failures="0" errors="0">
-<testcase classname="Application login 2" name="Login successful - Example #1.1" time="17.375">
+<testsuite name="Cucumber" time="34.121" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Application login" name="Home page default login" time="33.737">
 <system-out><![CDATA[
-Given The user accesses the portal using the 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'.passed
-When The 'Admin' and '<Password>' are captured..............................passed
-Then Select the login button................................................passed
-And Display the homepage....................................................passed
-And Close the webpage.......................................................passed
+Given User is on landing page...............................................passed
+When User tries to login into application...................................passed
+And Logs in "Admin" and "admin123"..........................................passed
+Then The homepage is displayed..............................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

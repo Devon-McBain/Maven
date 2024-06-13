@@ -20,10 +20,10 @@ import org.junit.runner.RunWith;
         plugin = {"pretty", "html:src/test/java/reports/HTMLReports/Report1.html",
                 "json:src/test/java/reports/JSONReports/Report2.json",
                 "junit:src/test/java/reports/JUnitReports/Reports3.xml"}, // specify what kind of report to generate
-        dryRun = false
+        dryRun = false,
         //strict = false,
         //monochrome = false
-        //tags = "@EasyLogin"
+        tags = "@SmokeTest"
         //name = {"Search"}
 )
 public class LoginTest {

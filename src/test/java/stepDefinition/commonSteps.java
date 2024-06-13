@@ -12,14 +12,19 @@ import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import pageObjects.LoginPageObject;
+import pageObjects.OrangehrmHomePage;
 
 public class commonSteps {
     private WebDriver driver;
+
 
     @Before
     public void setUp(){
         System.setProperty("webdriver.gecko.driver", "/snap/bin/geckodriver");
         driver = new FirefoxDriver();
+        new LoginPageObject(driver);
+        new OrangehrmHomePage(driver);
     }
 
     @After
@@ -31,4 +36,5 @@ public class commonSteps {
     public WebDriver getDriver(){
         return driver;
     }
+
 }

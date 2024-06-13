@@ -1,19 +1,28 @@
 **README.md**
 
-# Testing Approach for Orange HRM Open Source Frontend Website
+# Testing Approach for Orange HRM Open Source Frontend
 
-This document outlines the approach to testing the Orange HRM open-source frontend website. 
+This document outlines the approach to testing the Orange HRM open-source frontend. 
 
 https://opensource-demo.orangehrmlive.com/
 
 
+      Cucumber BDD Framework
       features: Test suit in gherkin language. Each feature consists of test cases.
       stepDefintion: Step Definition in cucumber, ie. Given When And Then
       cucumberOptions: TestRunner, run features file, glue between your feature and cucumbersteps
       reports: The Cucumber BDD framework will generate an HTML, JSON and/or XML report
 
+## Technologies Used:
+- Selenium WebDriver - v4.21.0 (Open Source)
+- JDK 22 (Java Development Kit)
+- JUnit (Test Unit Framework)
+- Cucumber/Gherkin (BDD Framework)
+- Maven (Build Automation Tool)
+- IDE - IntelliJ (Java Editor)
+- GitHub
+- Browsers (Firefox, Chrome, Edge)
 
-It includes all necessary steps in the software testing lifecycle.
 
 ## Software Testing Lifecycle Steps:
 
@@ -55,7 +64,7 @@ It includes all necessary steps in the software testing lifecycle.
    - Gather feedback from testing activities to improve future test planning and execution.
    - Update test cases and test plans based on lessons learned and changes in requirements.
    
-## Testing the Orange HRM Open Source Frontend Website: 
+## Testing the Orange HRM Open Source Frontend: 
 ## Generic types of testing that may apply to the Application Under Test (AUT).
 ### Effort will be placed on Functional Testing through automation
 
