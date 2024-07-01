@@ -39,12 +39,6 @@ public class LoginPageObject {
         PageFactory.initElements(driver, this);
     }
 
-    public String loginPageUrl(){
-        return ("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
-    }
-
-
-
     public static String homepage(){
         return ("https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index");
     }

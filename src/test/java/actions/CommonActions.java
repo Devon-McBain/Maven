@@ -30,9 +30,14 @@ public class CommonActions {
         driver.quit();
     }
 
+    public void display(String display){
+        System.out.println(display);
+    }
+
     public void waitDuration(){
         int sec = 10;
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(sec));
         }
+
 }
 

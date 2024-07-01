@@ -30,6 +30,7 @@ public class ApplicationLogin {
 
     @Given("Access the portal to achieve {string} using the {string}")
     public void the_user_accesses_the_portal_using_the(String Test,String URL) {
+        commonActions.display(Test);
         commonActions.goToURL(URL);
         commonActions.getcurrentURL();
         commonActions.getPageTitle();
@@ -94,5 +95,6 @@ public class ApplicationLogin {
     public void display_the_homepage() {
         commonActions.getcurrentURL();
         System.out.println(commonActions.getcurrentURL());
+        commonActions.quitDriver();
     }
 }
