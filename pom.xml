@@ -18,7 +18,7 @@
     <maven.compiler.source>17</maven.compiler.source>
     <maven.compiler.target>17</maven.compiler.target>
     <allure.version>2.24.0</allure.version>
-    <aspectj.version>1.9.20.1</aspectj.version>
+    <aspectj.version>1.9.22</aspectj.version>
   </properties>
 
   <dependencies>
@@ -99,6 +99,15 @@
       <artifactId>logback-classic</artifactId>
       <version>1.4.14</version>
     </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.aspectj/aspectjweaver -->
+    <dependency>
+      <groupId>org.aspectj</groupId>
+      <artifactId>aspectjweaver</artifactId>
+      <version>${aspectj.version}</version>
+      <scope>runtime</scope>
+    </dependency>
+
     </dependencies>
 
     <dependencyManagement>
@@ -206,6 +215,7 @@
           </suiteXmlFiles>-->
           <reportsDirectory>${project.build.directory}/cucumber-reports</reportsDirectory>
         </configuration>
+
 
 
          <!--<dependency>
