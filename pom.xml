@@ -150,10 +150,10 @@
 
 
 
-  <!--<build>
-    <pluginManagement>
+  <build>
+  <pluginManagement>
       <plugins>
-      <!- <plugin>
+      <!-- <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-jar-plugin</artifactId>
           <version>3.2.0</version>
@@ -184,7 +184,7 @@
           <!- -<source>${maven.compiler.source}</source>
           <target>${maven.compiler.target}</target>
         </configuration>
-      </plugin>
+      </plugin>-->
      <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-surefire-plugin</artifactId>
@@ -193,18 +193,22 @@
           <argLine>
             -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
           </argLine>
+          <systemPropertyVariables>
+            <webdriver.gecko.driver>/snap/bin/geckodriver</webdriver.gecko.driver>
+          </systemPropertyVariables>
 
           <includes>
             <include>**/ApplicationLoginTest.java</include>
             <include>**/LoginTest.java</include>
           </includes>
-          <suiteXmlFiles>
+          <!--<suiteXmlFiles>
             <suiteXmlFile>src/test/java/cucumberTests</suiteXmlFile>
-          </suiteXmlFiles>
+          </suiteXmlFiles>-->
           <reportsDirectory>${project.build.directory}/cucumber-reports</reportsDirectory>
         </configuration>
-       <dependencies>
-         <dependency>
+
+
+         <!--<dependency>
            <groupId>org.aspectj</groupId>
            <artifactId>aspectjweaver</artifactId>
            <version>${aspectj.version}</version>
@@ -237,9 +241,9 @@
                  </jsonFiles>
                </configuration>
              </execution>
-           </executions>
+           </executions>-->
          </plugin>
     </plugins>
     </pluginManagement>
-  </build>-->
+  </build>
 </project>
