@@ -95,6 +95,5 @@ public class ApplicationLogin {
     public void display_the_homepage() {
         commonActions.getcurrentURL();
         System.out.println(commonActions.getcurrentURL());
-        commonActions.quitDriver();
-    }
+           }
 }
