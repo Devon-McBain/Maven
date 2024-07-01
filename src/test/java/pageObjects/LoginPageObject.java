@@ -7,49 +7,43 @@ import org.openqa.selenium.support.PageFactory;
 
 public class LoginPageObject {
 
+    public WebDriver driver;
+
+    public String username;
+    public String password;
 
     @FindBy(name = "password")
-    static WebElement inputPassword;
+    public WebElement inputPassword;
 
     @FindBy(xpath = "//input[@name='username']")
-    static WebElement inputUsername;
+    public WebElement inputUsername;
 
     @FindBy(css = "button.oxd-button.oxd-button--medium.oxd-button--main.orangehrm-login-button")
-    public static WebElement buttonLogin;
+    public WebElement buttonLogin;
 
     @FindBy(css = "div[class='oxd-alert-content oxd-alert-content--error']")
     public WebElement invalidCredentials;
 
     @FindBy(css = "p[class$='orangehrm-login-forgot-header']")
     public WebElement forgotYourPassword;
-    
+
+    @FindBy(xpath = "/html/body/div/div[1]/div/div[1]/div/div[2]/div[2]/form/div[1]/div/span")
+    public WebElement usernameRequired;
+
+    @FindBy(xpath = "/html/body/div/div[1]/div/div[1]/div/div[2]/div[2]/form/div[2]/div/span")
+    public WebElement passwordRequired;
+
+
     public LoginPageObject(WebDriver driver) {
+        this.driver = driver;
         PageFactory.initElements(driver, this);
     }
 
-    public static String loginPageUrl(){
+    public String loginPageUrl(){
         return ("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
     }
 
-    public static void getUsername(String x){
-        inputUsername.clear();
-        inputUsername.sendKeys(x);
 
-     }
-
-    public static void getPassword(String x) {
-        inputPassword.clear();
-        inputPassword.sendKeys(x);
-
-    }
-
-    public static void setButtonLogin(){
-        buttonLogin.click();
-    }
-
-    public String getErrorMsg(){
-        return invalidCredentials.getText();
-    }
 
     public static String homepage(){
         return ("https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index");

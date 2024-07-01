@@ -14,12 +14,15 @@ Feature:  Application login
     Given User is on landing page
     When User tries to login into application
     |username |password        |
-    |Admin    |admin123        |
-    |NotAdmin |blandtester     |
-    |Test     |Test            |
-    |Admin    |admin123        |
-    |@#$%^&*  |@#!~$%^&*       |
+  #  |Admin    |admin123        |
+  #  |NotAdmin |blandtester     |
+  #  |Test     |Test            |
+  #  |Admin    |admin123        |
+  #  |@#$%^&*  |@#!~$%^&*       |
     |123456   |9874563210      |
+  #  |         |                |
+  #  |this     |                |
+  #  |         |that            |
     And Logs in "Admin" and "admin123"
     Then The homepage is displayed
 
