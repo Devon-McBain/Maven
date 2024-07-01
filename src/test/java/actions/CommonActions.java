@@ -7,7 +7,7 @@ import java.time.Duration;
 
 public class CommonActions {
 
-    private WebDriver driver;
+    public WebDriver driver;
     //CommonSteps act;
 
     public CommonActions(CommonSteps getNewDriver){
